@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Prism.Abstrictions", "Kirov.Prism.Abstrictions\Kirov.Prism.Abstrictions.csproj", "{1DC436BD-C465-4948-95D7-153838DE3032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirov.Prism.Dapper.MySQL", "Kirov.Prism.Dapper.MySQL\Kirov.Prism.Dapper.MySQL.csproj", "{D9C4FFE5-BC6D-4E35-8CAB-05591B8DB3B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Prism.Dapper.MySQL", "Kirov.Prism.Dapper.MySQL\Kirov.Prism.Dapper.MySQL.csproj", "{D9C4FFE5-BC6D-4E35-8CAB-05591B8DB3B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirov.Prism.Dapper.SQLServer", "Kirov.Prism.Dapper.SQLServer\Kirov.Prism.Dapper.SQLServer.csproj", "{4FE00D53-E51B-4C3F-8A5E-D785AAD30BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Prism.Dapper.SQLServer", "Kirov.Prism.Dapper.SQLServer\Kirov.Prism.Dapper.SQLServer.csproj", "{4FE00D53-E51B-4C3F-8A5E-D785AAD30BD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
