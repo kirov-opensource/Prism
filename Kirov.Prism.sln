@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Prism.Dapper.MySQL", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Prism.Dapper.SQLServer", "Kirov.Prism.Dapper.SQLServer\Kirov.Prism.Dapper.SQLServer.csproj", "{4FE00D53-E51B-4C3F-8A5E-D785AAD30BD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirov.Prism.Dapper.MySQL.Test", "Kirov.Prism.Dapper.MySQL.Test\Kirov.Prism.Dapper.MySQL.Test.csproj", "{EB3946CF-C336-4ECC-969B-80671FEF1227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4FE00D53-E51B-4C3F-8A5E-D785AAD30BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE00D53-E51B-4C3F-8A5E-D785AAD30BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE00D53-E51B-4C3F-8A5E-D785AAD30BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3946CF-C336-4ECC-969B-80671FEF1227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3946CF-C336-4ECC-969B-80671FEF1227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3946CF-C336-4ECC-969B-80671FEF1227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3946CF-C336-4ECC-969B-80671FEF1227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

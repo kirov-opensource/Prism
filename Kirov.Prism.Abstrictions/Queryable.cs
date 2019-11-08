@@ -20,6 +20,12 @@ namespace Kirov.Prism.Abstrictions
             this.Provider = queryProvider;
         }
 
+        public Queryable(IQueryProvider queryProvider, Expression expression)
+        {
+            this.Expression = expression ?? Expression.Constant(this);
+            this.Provider = queryProvider;
+        }
+
         public IEnumerator<T> GetEnumerator()
         {
             throw new NotImplementedException();

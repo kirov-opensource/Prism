@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kirov.Prism.Abstrictions;
+using System;
 using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
@@ -17,12 +18,13 @@ namespace Kirov.Prism.Dapper.SQLServer
 
         public IQueryable CreateQuery(Expression expression)
         {
+
             throw new NotImplementedException();
         }
 
         public IQueryable<TElement> CreateQuery<TElement>(Expression expression)
         {
-            throw new NotImplementedException();
+            return new Queryable<TElement>(this, expression);
         }
 
         public object Execute(Expression expression)
