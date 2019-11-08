@@ -1,4 +1,4 @@
-# kirov-prism
+# Kirov Prism
 
 | DataBase | Support |  
 | ------ | ------- |
