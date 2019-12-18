@@ -2,10 +2,10 @@
 
 | DataBase | Support |  
 | ------ | ------- |
-| MySQL | ❌ |
-| SQL Server | ❌ |
-| PostgreSQL | ❌ |
-| Oracle | ❌ |
+| MySQL | 🕒 |
+| SQL Server | 🕒 |
+| PostgreSQL | 🕒 |
+| Oracle | 🕒 |
 
 * Kirov.Prism.Abstractions
 * Kirov.Prism.Dapper.MySQL Implement Kirov.Prism.Abstractions  For MySQL
